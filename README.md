@@ -1,12 +1,10 @@
-# Getting Started with Create React App
+# react-instant-query
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这是一个QQ号详情即时查询项目，输入qq号进行即时查询。
 
-## Available Scripts
+## 依赖安装
 
-In the project directory, you can run:
-
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
