@@ -24,5 +24,5 @@ export async function getRequest(params: RequestGetInterface) {
   const { url, data } = params;
   const str = joinParams(data);
   const res = await axios.get(`${url}?${str}`);
-  return res;
+  return res.data;
 }

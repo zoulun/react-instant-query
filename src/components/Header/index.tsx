@@ -2,7 +2,7 @@ import React from 'react';
 import { HeaderInterface } from 'interface/header-interface';
 import './index.css';
 
-export function Header(props: HeaderInterface) {
+export default function Header(props: HeaderInterface) {
   const { title } = props;
   return (
     <header className="header-container">

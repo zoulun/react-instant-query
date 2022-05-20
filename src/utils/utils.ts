@@ -22,6 +22,11 @@ export const checkNumber = (str: string): Boolean => {
   return reg.test(str);
 };
 
+/**
+ * 参数拼接
+ * @param data
+ * @returns
+ */
 export const joinParams = (data: any): string => {
   let str: string = '';
   for (const key in data) {

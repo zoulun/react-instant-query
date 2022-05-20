@@ -1,5 +1,5 @@
 export interface InitStateInterface {
-  src?: string;
+  qlogo?: string;
   name?: string;
-  number?: number | null;
+  qq?: number | string;
 }

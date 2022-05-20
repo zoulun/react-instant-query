@@ -1,20 +1,20 @@
 import { PERSONAL_DETAIL } from 'action/personal-action';
-import { PersonalInterface } from 'interface/actionInterface/personalInterface';
-import { InitStateInterface } from 'interface/actionInterface/initStateInterface';
+import { PublicInterface } from 'src/interface/reducers/personalInterface';
+import { InitStateInterface } from 'src/interface/reducers/initStateInterface';
 
 const initState = {
-  src: '',
+  qlogo: '',
   name: '',
-  number: null,
+  qq: '',
 };
 
 export const personal = (
   state: InitStateInterface = initState,
-  action: PersonalInterface
+  action: PublicInterface
 ) => {
   switch (action.type) {
     case PERSONAL_DETAIL:
-      return { ...state, ...action.data };
+      return { ...state, ...action.payload };
     default:
       return { ...state };
   }
