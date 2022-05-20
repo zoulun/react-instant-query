@@ -1,0 +1,21 @@
+.search-container {
+  display: flex;
+}
+.search-container label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.search-container input {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  text-indent: 10px;
+  outline: none;
+}
+.search-container .err {
+  height: 25px;
+  line-height: 25px;
+  margin: 0;
+  color: red;
+}

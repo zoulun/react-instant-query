@@ -1,11 +1,11 @@
 import React from 'react';
-import { BaseData } from '../../interface/base';
+import { HeaderInterface } from 'interface/header-interface';
 import './index.css';
 
-export function Header(props: BaseData) {
+export function Header(props: HeaderInterface) {
   const { title } = props;
   return (
-    <header className="header">
+    <header className="header-container">
       <h1>{title}</h1>
     </header>
   );

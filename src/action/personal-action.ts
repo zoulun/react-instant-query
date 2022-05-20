@@ -1,0 +1,1 @@
+export const PERSONAL_DETAIL = 'PERSONAL_DETAIL';
